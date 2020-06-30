@@ -25,7 +25,7 @@ function drawText(text,x,y,color){
 }//function the draw the text
 
 function drawNet() {
-    for(let i=0;i<=canvas.height;i+=15){
+    for(let i=0;i<=canvas.height;i+=16){
         drawRect(net.x,net.y+i,net.width,net.height,net.color);
     }
 }//function to draw the net
